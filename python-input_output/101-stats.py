@@ -28,6 +28,7 @@ if __name__ == "__main__":
             line_count += 1
             if line_count % 10 == 0:
                 print_stats(total_size, status_codes)
+        print_stats(total_size, status_codes)
     except KeyboardInterrupt:
         print_stats(total_size, status_codes)
         raise
